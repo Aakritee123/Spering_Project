@@ -1,0 +1,373 @@
+/* First page */
+*{
+    margin: 0%;
+    padding: 0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+    max-height: 500px;
+    width: 100%;
+  
+}
+.hero-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+.contain1{
+    margin: 0%;
+    background-color: #1a2e35;
+    height: 450px;
+    width: 60%;
+    color: aliceblue;
+}
+.icon{
+    margin-top: -6px;
+    display: flex;
+   flex-wrap: nowrap;
+   font-size: larger;
+  justify-content: space-between;
+}
+
+
+.icon img{
+    text-align: left;
+    margin:7px;
+}
+
+.icon1  h1 {
+    text-align: start;
+    margin-top: -2.7rem;
+    margin-left: 38px;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+     
+  }
+.icon2 {
+  margin: 7px; 
+  color: whitesmoke; 
+  font-size: larger;
+}
+.contain1 .para1 {
+    margin-top: 60px;
+   
+}
+.para1 h1{
+   justify-content: center;
+   /* margin-top: 2px; */
+   margin: 12px 5px;
+   font-weight: 700;
+}
+.para1 p{
+    margin:10px 5px;
+}
+
+.contain2 {
+    /* background-color: rgb(37, 172, 145); */
+    height:450px;
+    width: 50%;
+    /* background: url("/freelance.jpg");
+   background-attachment: cover; */
+   overflow: hidden;
+ 
+}
+.contain2 img{
+    height: 500px;
+    max-width: 100%;
+ 
+    /* overflow: hidden; */
+}
+
+
+.First-page-button button {
+    
+    
+    justify-content: center;
+    height: 40px;
+    width:120px;
+    outline: none;
+    border: none;
+    
+    /* color: aliceblue; */
+    margin: 20px 5px ;
+}
+.button-1 {
+    background-color: brown;
+    color: aliceblue;
+   
+}
+.button-2 {
+    background-color: aliceblue;
+    color: black;
+}
+.arrow{
+    margin-left: 50px;
+    margin-top: -5px;
+}
+
+
+
+/* third page */
+.category{
+    padding-top: 50px;
+   /* margin-top: 20px; */
+   background-color: rgb(30 188 181);
+   color: white;
+   max-height:100%;
+   width: 100%;
+
+}
+.category h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.third-icons{
+    margin-top: 25px;
+   text-align: center;
+  display: grid;
+   grid-template-columns: repeat(3,2fr);    
+   row-gap: 30px;
+   padding-bottom: 50px;
+}
+
+.category-img img{
+    height: 90px;
+    width: 110px;
+}
+.category-img p{
+    color: white;
+    background-color: none;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.Contact{
+    padding-top: 50px;
+    /* margin-top: 10px; */
+    background-color: #1a2e35;
+    max-height: 100%;
+    width: 100%;
+    color: white;
+}
+.spering-image {
+    margin-top: -8px;
+}
+.spering-image img{
+    text-align: left;
+    margin:7px;
+}
+.spering-image h1 {
+    text-align: start;
+    margin-top: -2.7rem;
+    margin-left: 40px;
+    
+    color: white;
+    font-size: 25px;
+     
+  }
+  .Social.media{
+    
+  }
+  .media-icons a{
+    color: aliceblue;
+   letter-spacing: 3px;
+   font-size: larger;
+   margin-top: 12px;
+   font-size: x-large;
+  }
+  
+.Contact-head-wrapper{
+
+    display: flex;
+    justify-content:space-between;
+    /* flex-direction: row; */
+   
+}
+.Contact-list-wrapper{
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.Contact-list-wrapper .list ul li{
+    list-style: none;
+    
+}
+.Contact-list-wrapper h2{
+    font-weight: 600;
+    word-spacing: 5px;
+    font-size: medium;
+}
+
+.Contact-list-wrapper .list-para{
+    margin-top: 10px;
+   font-size: 14px;
+}
+.input-box input{
+    padding-right: 0px;
+    height: 25px;
+    outline: none;
+    border: none;
+}
+.list-btn{
+    height: 30px;
+    background-color:#ff4f5a;
+    color: white;
+    border: 0.5px solid white;
+    margin-top: 12px;
+    padding-left: 4px;
+    width: 60%;
+    text-align: center;
+}
+.icon-list-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 80px;
+}
+.icon-list-wrapper i{
+   margin-right: -15px;
+}
+i:hover{
+    color: rgb(72, 124, 147);
+}
+.icon-list-wrapper i:hover{
+    color: #ff4f5a;
+}
+
+.icon-list-wrapper p{
+    
+   
+    font-weight: 100;
+    font-size: 14px;
+    margin-left: -80px;
+}
+.min-footer{
+margin-top: 10px;
+height: 30px;
+}
+.min-footer p{
+   font-size: 14px; 
+  text-align: center;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-top: 15px;
+   
+}
+
+/* media query */
+/* Media Queries for Tablet Devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .contain1, .contain2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .contain1 {
+        padding: 20px;
+    }
+
+    .contain2 img {
+        height: auto;
+    }
+
+    .hero-text-wrapper {
+        padding: 20px;
+    }
+
+    .hero-text-wrapper h1, .hero-text-wrapper p {
+        text-align: center;
+    }
+
+    .arrow {
+        margin: 20px auto;
+    }
+
+    .third-icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Contact-list-wrapper {
+        flex-direction: column;
+    }
+
+    .Contact-list-wrapper .list {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .icon-list-wrapper {
+        flex-direction: column;
+    }
+
+    .icon-list-wrapper i, .icon-list-wrapper p {
+        margin: 10px auto;
+    }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 480px) {
+    .contain1, .contain2 {
+        width: 100%;
+    }
+
+    .icon1 h1, .spering-image h1 {
+        font-size: 20px;
+    }
+
+    .para1 h1 {
+        font-size: 24px;
+    }
+
+    .First-page-button button {
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .button-1, .button-2 {
+        font-size: 14px;
+    }
+
+    .third-icons {
+        grid-template-columns: 1fr;
+    }
+
+    .category-img img {
+        height: 70px;
+        width: 90px;
+    }
+
+    .category-img p {
+        font-size: 14px;
+    }
+
+    .Social.media a {
+        font-size: medium;
+    }
+
+    .icon-list-wrapper p {
+        font-size: 12px;
+    }
+
+    .icon-list-wrapper {
+        margin-top: 10px;
+    }
+
+    .min-footer p {
+        font-size: 12px;
+    }
+}
